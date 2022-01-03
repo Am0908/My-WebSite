@@ -1,0 +1,43 @@
+body
+{
+  align-items: center;
+  background-color: #787A91;
+}
+.top-container
+{
+  background-color: #787A91;
+  height: 918px;
+}
+.topimg
+{
+  width: 400px;
+  height:400px;
+  position: absolute;
+}
+#img1
+{
+  margin-left: 25%;
+  margin-top: 10%;
+}
+#img2
+{
+  margin-left: 50%;
+  margin-top: 18%;
+}
+.middle-container
+{
+  padding: 5px;
+  text-align: center;
+  background-color: #35589A;
+  height: 1080px;
+  color: white;
+}
+.headings
+{
+  font-size: 60px;
+}
+.bottom-container
+{
+  background-color: yellow;
+  height: 1080px;
+}
