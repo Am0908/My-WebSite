@@ -1,11 +1,11 @@
 body
 {
   align-items: center;
-  background-color: #787A91;
+  background-color: black;
 }
 .top-container
 {
-  background-color: #787A91;
+  background-color: black;
   height: 918px;
 }
 .topimg
@@ -19,14 +19,18 @@ body
   margin-left: 25%;
   margin-top: 10%;
 }
+
 #img2
 {
   margin-left: 50%;
   margin-top: 18%;
+  border-style: solid;
+  border-color: white;
 }
 .middle-container
 {
-  padding: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
   text-align: center;
   background-color: #35589A;
   height: 1080px;
@@ -35,6 +39,7 @@ body
 .headings
 {
   font-size: 60px;
+  font-style: oblique;
 }
 .bottom-container
 {
