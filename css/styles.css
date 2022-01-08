@@ -65,20 +65,48 @@ body
   padding: 100px 100px;
   align-items: center;
 }
+.card-title
+{
+  color: white;
+}
 .contact
 {
   font-size: 60px;
   text-shadow: 2px 2px #FF7272;
   font-family: 'Baloo 2', cursive;
 }
+.BUTTON_PCR {
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 10px;
+   color: white;
+   font-family: Verdana;
+   font-size: 20px;
+   padding: 10px 5px 10px 5px;
+   font-weight: 100;
 
+   box-shadow-color: ;
+   box-shadow-horizontal: 1;
+   box-shadow-vertical: 1;
+   box-shadow-blur: 20;
+   box-shadow-spread: 0;
+   margin: 20px 0px 50px 0px;
+   background-color: #FF7272;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #FF7272 4px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
 #linkedin
 {
   width: 60px;
 }
 #twitter
 {
-  width: 85px;
+  width: 90px;
+  
 }
 #insta
 {
