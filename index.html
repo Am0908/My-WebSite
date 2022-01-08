@@ -1,28 +1,112 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>CoDev</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Licorice&display=swap" rel="stylesheet">
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <title>CoDev</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Charmonman&family=Licorice&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
   <div class="top-container">
-    bkjbhgmhv<br />
-    <img src="images/about.gif" id="img1" class="topimg">
-    <img src="images/me.jpg" id="img2" class="topimg">
+    <p class="div1top">
+      Hey! I am Amrita
+    </p>
+    <p class="div1sec">
+      A Web <u>Developer</u>
+    </p>
   </div>
   <div class="middle-container">
-     <p class="headings"><u>These are some of my Projects</u></p>
-     <div class="card" style="width: 20rem;">
-  <img class="card-img-top" src="images/img1.png" width="250px"alt="Card image cap">
-  <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
+    <section id="pricing">
+      <p class="headings"><u>These are some of my Projects</u></p>
+
+      <div class="row">
+        <div class="pricing-column col-lg-3 col-md-6">
+          <div class="card border-secondary" style="width: 18rem;">
+            <img src="images/dice.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dice Game</h5>
+              <p class="card-text">My first javascript mini project.<br />Every time you refresh you get a new result</p>
+              <a href="#" class="btn btn-secondary ">View</a>
+            </div>
+          </div>
+        </div>
+          <div class="pricing-column col-lg-3 col-md-6">
+          <div class="card border-secondary" style="width: 18rem;">
+            <img src="images/drum.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Drum Kit</h5>
+              <p class="card-text">My first javascript mini project.<br />Every time you refresh you get a new result</p>
+              <a href="#" class="btn btn-secondary ">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-column col-lg-3 col-md-6">
+        <div class="card border-secondary" style="width: 18rem;">
+          <img src="images/portfolio.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">My Portfolio</h5>
+            <p class="card-text">My first javascript mini project.<br />Every time you refresh you get a new result</p>
+            <a href="#" class="btn btn-secondary">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-column col-lg-3 col-md-6">
+      <div class="card border-secondary" style="width: 18rem;">
+        <img src="images/portfolio.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">My Portfolio</h5>
+          <p class="card-text">My first javascript mini project.<br />Every time you refresh you get a new result</p>
+          <a href="#" class="btn btn-secondary">View</a>
+        </div>
+      </div>
+    </div>
+      </div>
+    </section>
+
   </div>
   <div class="bottom-container">
-    jnkkjuhb
+    <p class="contact"><u>Let's Get in Touch</u></p>
+    <form action="mailto:as09082020@gmail.com" class="feedback" action="index.html" method="post">
+      <label for="name">Name</label><br />
+      <input type="text" name="name" id="name"><br /><br />
+      <label for="email">Email</label><br />
+      <input type="text" name="email" id="email"><br /><br />
+      <label for="msg">Message</label><br />
+      <textarea name="Your Message" rows="4" cols="19"></textarea><br />
+      <input type="submit" name="" >
+    </form>
+
+    <form>
+
+      <table align="center" >
+
+        <tr>
+          <td>
+
+            <a class="footer-link" href="https://www.linkedin.com/in/amrita-kumari-2401961b6/"><img id="linkedin" src="https://media.giphy.com/media/HQTYdpx1yhxWpugAi2/giphy.gif" alt=""></a>
+          </td>
+          <td>
+
+            <a class="footer-link" href="https://twitter.com/Amrita0908"><img id="twitter" src="https://media.giphy.com/media/c6VX5xQaFvjMfLxoUE/giphy.gif" alt=""></a>
+          </td>
+
+          <td>
+
+            <a class="footer-link" href="https://github.com/Am0908"><img id="git" src="https://media.giphy.com/media/CwTvSiWflgCGKgz5eb/giphy.gif" alt=""></a>
+          </td>
+          <td>
+            <a class="footer-link" href="https://www.instagram.com/shreya._.chaubey/"><img id="email" src="https://media.giphy.com/media/eTtXHP8CyQHHa4M8EM/giphy.gif" alt=""></a>
+          </td>
+        </tr>
+      </table>
+
   </div>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
 </html>

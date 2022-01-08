@@ -1,48 +1,94 @@
 body
 {
   align-items: center;
-  background-color: black;
+  background-color: #3E8E7E;
+  margin: 0;
+  position: relative;
+  height: 100%;
 }
 .top-container
 {
+  padding: 25% 0%;
   background-color: black;
-  height: 918px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  position: relative;
 }
-.topimg
+.div1top
 {
-  width: 400px;
-  height:400px;
-  position: absolute;
+  font-family: 'Charmonman', cursive;
+  font-size: 60px;
+  color: #7CD1B8;
 }
-#img1
+.div1sec
 {
-  margin-left: 25%;
-  margin-top: 10%;
-}
+  font-family: 'Baloo 2', cursive;
+  font-size: 30px;
+  color: #FF7272;
+  text-shadow: 1px 1px white;
 
-#img2
-{
-  margin-left: 50%;
-  margin-top: 18%;
-  border-style: solid;
-  border-color: white;
 }
 .middle-container
 {
-  padding-top: 5px;
-  padding-left: 10px;
+  padding-top: 50px;
   text-align: center;
-  background-color: #35589A;
-  height: 1080px;
-  color: white;
+  background-color: #7CD1B8;
+  height: auto;
+}
+
+.row
+{
+  padding: 50px 50px 50px 50px;
 }
 .headings
 {
   font-size: 60px;
-  font-style: oblique;
+  font-family: 'Twinkle Star', cursive;
+  text-shadow: 2px 2px #FF7272;
 }
+.card-body
+{
+  background-color: #FF7272;
+}
+.card-buttons
+{
+  background-color: white;
+}
+
 .bottom-container
 {
-  background-color: yellow;
-  height: 1080px;
+  background-color: black ;
+  height: auto;
+  color: white;
+  text-align: center;
+  padding: 100px 100px;
+  align-items: center;
+}
+.contact
+{
+  font-size: 60px;
+  text-shadow: 2px 2px #FF7272;
+  font-family: 'Baloo 2', cursive;
+}
+
+#linkedin
+{
+  width: 60px;
+}
+#twitter
+{
+  width: 85px;
+}
+#insta
+{
+  width: 50px;
+}
+#git
+{
+  width: 50px;
+}
+#email
+{
+  width: 50px;
 }
