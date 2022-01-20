@@ -1,8 +1,14 @@
+head
+{
+  border: 1px;
+}
+
 body
 {
   align-items: center;
   background-color: #3E8E7E;
   margin: 0;
+  margin-right: 0;
   position: relative;
   height: 100%;
 }
@@ -45,7 +51,8 @@ body
 }
 .middle-container
 {
-  padding-top: 50px;
+  padding: 50px 50px 50px 50px;
+
   text-align: center;
   background-color: #7CD1B8;
   height: auto;
@@ -53,7 +60,7 @@ body
 
 .row
 {
-  padding: 50px 50px 50px 50px;
+  padding-top: 50px;
 }
 .headings
 {
@@ -78,7 +85,7 @@ body
   text-align: center;
   padding: 100px 100px;
   align-items: center;
-  
+
 }
 .card-title
 {
