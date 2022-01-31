@@ -12,14 +12,14 @@ body
   position: relative;
   height: 100%;
 }
+
 .navbar
 {
-
   font-size: 20px;
 }
 .navbar-brand
 {
-    padding-left: 40px;
+  padding-left: 40px;
   font-size: 100px;
 }
 .nav-item
@@ -28,18 +28,21 @@ body
 }
 .top-container
 {
-  padding: 25% 0%;
   background-color: black;
+  padding: 15% 0%;
   color: white;
   text-align: center;
   line-height: 100px;
-  position: relative;
+}
+.toprow
+{
+  align-items: center;
 }
 .div1top
 {
   font-family: 'Charmonman', cursive;
   font-size: 60px;
-  color: #7CD1B8;
+  color: #D3DEDC;
 }
 .div1sec
 {
@@ -54,7 +57,7 @@ body
   padding: 50px 50px 50px 50px;
 
   text-align: center;
-  background-color: #7CD1B8;
+  background-color: #4FBDBA;
   height: auto;
 }
 
@@ -68,6 +71,7 @@ body
   font-family: 'Twinkle Star', cursive;
   text-shadow: 2px 2px #FF7272;
 }
+
 .card-body
 {
   background-color: #FF7272;
@@ -142,6 +146,7 @@ body
 {
   width: 50px;
 }
+
 footer{
   background-color: black;
   color: white;
