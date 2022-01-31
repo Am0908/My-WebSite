@@ -8,7 +8,6 @@ body
   align-items: center;
   background-color: #3E8E7E;
   margin: 0;
-  margin-right: 0;
   position: relative;
   height: 100%;
 }
@@ -33,6 +32,7 @@ body
   color: white;
   text-align: center;
   line-height: 100px;
+  position: relative;
 }
 .toprow
 {
